@@ -1,0 +1,135 @@
+﻿.dropdown
+{
+    color: #555;
+    margin: 0px 22px 0 0;
+    width: 127px;
+    position: relative;
+    height: 24px;
+    text-align: left;
+    background-color: #CECECE;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdownM
+{
+     color: #555;
+    margin: 2px 0px 0 0;
+    width: 142px;
+    position: relative;
+    height: 18px;
+    text-align: left;
+    background-color: #35b0e4;
+    float: left;
+}
+.submenu
+{
+    background: #B9B9B9;
+    position: absolute;
+    top: -2px;
+    left: -20px;
+    z-index: 100;
+    width: 135px;
+    display: none;
+    margin-left: 10px;
+    padding: 40px 0 5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.submenuM
+{
+    background: #35b0e4;
+    position: absolute;
+    top: -2px;
+    left: -20px;
+    z-index: 100;
+    width: 135px;
+    display: none;
+    margin-left: 24px;
+    padding: 40px 0 5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+    opacity: .9;
+}
+.dropdown li a 
+{
+color: #555555;
+display: block;
+font-family: arial;
+font-weight: bold;
+padding: 6px 15px;
+cursor: pointer;
+text-decoration:none;
+}
+.dropdownM li a 
+{
+color: #555555;
+display: block;
+font-family: arial;
+font-weight: bold;
+padding: 6px 15px;
+cursor: pointer;
+text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+background:#155FB0;
+color: #FFFFFF;
+text-decoration: none;
+}
+.dropdownM li a:hover
+{
+background:#155FB0;
+color: #FFFFFF;
+text-decoration: none;
+}
+a.account
+{
+    font-size: 12px;
+    line-height: 16px;
+    color: #555;
+    position: absolute;
+    z-index: 210;
+    display: block;
+    padding: 11px 0 0 20px;
+    height: 28px;
+    width: 121px;
+    margin: -11px 0 0 -10px;
+    text-decoration: none;
+  
+    cursor: pointer;
+
+}
+a.accountM
+{
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 210;
+    display: block;
+    padding: 11px 0 0 20px;
+    height: 16px;
+    width: 121px;
+    margin: -11px 0 0 -10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.root
+{
+list-style:none;
+margin:0px;
+padding:0px;
+font-size: 11px;
+padding: 11px 0 0 0px;
+border-top:1px solid #dedede;
+}
+.rootM
+{
+list-style:none;
+margin:0px;
+padding:0px;
+font-size: 11px;
+padding: 11px 0 0 0px;
+border-top:1px solid #dedede;
+}

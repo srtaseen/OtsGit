@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Cutting" targetNamespace="http://tempuri.org/Cutting.xsd" xmlns:mstns="http://tempuri.org/Cutting.xsd" xmlns="http://tempuri.org/Cutting.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Cutting" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Cutting" msprop:Generator_UserDSName="Cutting">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nFabColNo" msprop:Generator_ColumnVarNameInTable="columnnFabColNo" msprop:Generator_ColumnPropNameInRow="nFabColNo" msprop:Generator_ColumnPropNameInTable="nFabColNoColumn" msprop:Generator_UserColumnName="nFabColNo" type="xs:int" minOccurs="0" />
+              <xs:element name="CQty" msprop:Generator_ColumnVarNameInTable="columnCQty" msprop:Generator_ColumnPropNameInRow="CQty" msprop:Generator_ColumnPropNameInTable="CQtyColumn" msprop:Generator_UserColumnName="CQty" type="xs:int" minOccurs="0" />
+              <xs:element name="cFty" msprop:Generator_ColumnVarNameInTable="columncFty" msprop:Generator_ColumnPropNameInRow="cFty" msprop:Generator_ColumnPropNameInTable="cFtyColumn" msprop:Generator_UserColumnName="cFty" type="xs:string" minOccurs="0" />
+              <xs:element name="cPONo" msprop:Generator_ColumnVarNameInTable="columncPONo" msprop:Generator_ColumnPropNameInRow="cPONo" msprop:Generator_ColumnPropNameInTable="cPONoColumn" msprop:Generator_UserColumnName="cPONo" type="xs:string" minOccurs="0" />
+              <xs:element name="cColour" msprop:Generator_ColumnVarNameInTable="columncColour" msprop:Generator_ColumnPropNameInRow="cColour" msprop:Generator_ColumnPropNameInTable="cColourColumn" msprop:Generator_UserColumnName="cColour" type="xs:string" minOccurs="0" />
+              <xs:element name="cStyleNo" msprop:Generator_ColumnVarNameInTable="columncStyleNo" msprop:Generator_ColumnPropNameInRow="cStyleNo" msprop:Generator_ColumnPropNameInTable="cStyleNoColumn" msprop:Generator_UserColumnName="cStyleNo" type="xs:string" minOccurs="0" />
+              <xs:element name="cBuyer_Name" msprop:Generator_ColumnVarNameInTable="columncBuyer_Name" msprop:Generator_ColumnPropNameInRow="cBuyer_Name" msprop:Generator_ColumnPropNameInTable="cBuyer_NameColumn" msprop:Generator_UserColumnName="cBuyer_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="ntot" msprop:Generator_ColumnVarNameInTable="columnntot" msprop:Generator_ColumnPropNameInRow="ntot" msprop:Generator_ColumnPropNameInTable="ntotColumn" msprop:Generator_UserColumnName="ntot" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

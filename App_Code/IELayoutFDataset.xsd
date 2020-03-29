@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="IELayoutFDataset" targetNamespace="http://tempuri.org/IELayoutFDataset.xsd" xmlns:mstns="http://tempuri.org/IELayoutFDataset.xsd" xmlns="http://tempuri.org/IELayoutFDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="IELayoutFDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="IELayoutFDataset" msprop:Generator_UserDSName="IELayoutFDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IELayoutFDataset" msprop:Generator_TableClassName="IELayoutFDatasetDataTable" msprop:Generator_TableVarName="tableIELayoutFDataset" msprop:Generator_TablePropName="_IELayoutFDataset" msprop:Generator_RowDeletingName="IELayoutFDatasetRowDeleting" msprop:Generator_RowChangingName="IELayoutFDatasetRowChanging" msprop:Generator_RowEvHandlerName="IELayoutFDatasetRowChangeEventHandler" msprop:Generator_RowDeletedName="IELayoutFDatasetRowDeleted" msprop:Generator_UserTableName="IELayoutFDataset" msprop:Generator_RowChangedName="IELayoutFDatasetRowChanged" msprop:Generator_RowEvArgName="IELayoutFDatasetRowChangeEvent" msprop:Generator_RowClassName="IELayoutFDatasetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Buyer" msprop:Generator_ColumnVarNameInTable="columnBuyer" msprop:Generator_ColumnPropNameInRow="Buyer" msprop:Generator_ColumnPropNameInTable="BuyerColumn" msprop:Generator_UserColumnName="Buyer" type="xs:string" minOccurs="0" />
+              <xs:element name="Style" msprop:Generator_ColumnVarNameInTable="columnStyle" msprop:Generator_ColumnPropNameInRow="Style" msprop:Generator_ColumnPropNameInTable="StyleColumn" msprop:Generator_UserColumnName="Style" type="xs:string" minOccurs="0" />
+              <xs:element name="art_no" msprop:Generator_ColumnVarNameInTable="columnart_no" msprop:Generator_ColumnPropNameInRow="art_no" msprop:Generator_ColumnPropNameInTable="art_noColumn" msprop:Generator_UserColumnName="art_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Garments" msprop:Generator_ColumnVarNameInTable="columnGarments" msprop:Generator_ColumnPropNameInRow="Garments" msprop:Generator_ColumnPropNameInTable="GarmentsColumn" msprop:Generator_UserColumnName="Garments" type="xs:string" minOccurs="0" />
+              <xs:element name="PEffeciency" msprop:Generator_ColumnVarNameInTable="columnPEffeciency" msprop:Generator_ColumnPropNameInRow="PEffeciency" msprop:Generator_ColumnPropNameInTable="PEffeciencyColumn" msprop:Generator_UserColumnName="PEffeciency" type="xs:string" minOccurs="0" />
+              <xs:element name="TotSmv" msprop:Generator_ColumnVarNameInTable="columnTotSmv" msprop:Generator_ColumnPropNameInRow="TotSmv" msprop:Generator_ColumnPropNameInTable="TotSmvColumn" msprop:Generator_UserColumnName="TotSmv" type="xs:string" minOccurs="0" />
+              <xs:element name="MOperator" msprop:Generator_ColumnVarNameInTable="columnMOperator" msprop:Generator_ColumnPropNameInRow="MOperator" msprop:Generator_ColumnPropNameInTable="MOperatorColumn" msprop:Generator_UserColumnName="MOperator" type="xs:string" minOccurs="0" />
+              <xs:element name="Helper" msprop:Generator_ColumnVarNameInTable="columnHelper" msprop:Generator_ColumnPropNameInRow="Helper" msprop:Generator_ColumnPropNameInTable="HelperColumn" msprop:Generator_UserColumnName="Helper" type="xs:string" minOccurs="0" />
+              <xs:element name="TargetPHr" msprop:Generator_ColumnVarNameInTable="columnTargetPHr" msprop:Generator_ColumnPropNameInRow="TargetPHr" msprop:Generator_ColumnPropNameInTable="TargetPHrColumn" msprop:Generator_UserColumnName="TargetPHr" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationName" msprop:Generator_ColumnVarNameInTable="columnOperationName" msprop:Generator_ColumnPropNameInRow="OperationName" msprop:Generator_ColumnPropNameInTable="OperationNameColumn" msprop:Generator_UserColumnName="OperationName" type="xs:string" minOccurs="0" />
+              <xs:element name="MachineName" msprop:Generator_ColumnVarNameInTable="columnMachineName" msprop:Generator_ColumnPropNameInRow="MachineName" msprop:Generator_ColumnPropNameInTable="MachineNameColumn" msprop:Generator_UserColumnName="MachineName" type="xs:string" minOccurs="0" />
+              <xs:element name="SMV" msprop:Generator_ColumnVarNameInTable="columnSMV" msprop:Generator_ColumnPropNameInRow="SMV" msprop:Generator_ColumnPropNameInTable="SMVColumn" msprop:Generator_UserColumnName="SMV" type="xs:string" minOccurs="0" />
+              <xs:element name="MachineQty" msprop:Generator_ColumnVarNameInTable="columnMachineQty" msprop:Generator_ColumnPropNameInRow="MachineQty" msprop:Generator_ColumnPropNameInTable="MachineQtyColumn" msprop:Generator_UserColumnName="MachineQty" type="xs:string" minOccurs="0" />
+              <xs:element name="ManQty" msprop:Generator_ColumnVarNameInTable="columnManQty" msprop:Generator_ColumnPropNameInRow="ManQty" msprop:Generator_ColumnPropNameInTable="ManQtyColumn" msprop:Generator_UserColumnName="ManQty" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

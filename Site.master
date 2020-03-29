@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="NECESSARY%20PLUGINS/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="NECESSARY%20PLUGINS/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="NECESSARY%20PLUGINS/Font%20awsome/font-awesome-4.4.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css" />
+    <link href="Styles/TnaGridView.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/logut.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery.min.js" type="text/javascript"></script>
+    <link href="Styles/checkbox.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/pageloading.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/button.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/ajaxTab.css" rel="stylesheet" type="text/css" />
+        <link href="Styles/GridviewScroll.css" rel="stylesheet" type="text/css" />
+  
+    <%--  Log Out  Message--%>
+    <script type="text/javascript">
+        $(function () {
+            $('a#logout').click(function () {
+                if (confirm('Are you sure to logout')) {
+                    return true;
+                }
+
+                return false;
+            });
+        });
+    </script>
+     <%--  Log Out  Message--%>
+    <%--Menu--%>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".account").click(function () {
+                var X = $(this).attr('id');
+
+                if (X == 1) {
+                    $(".submenu").hide();
+                    $(this).attr('id', '0');
+                }
+                else {
+
+                    $(".submenu").show();
+                    $(this).attr('id', '1');
+                }
+
+            });
+
+            //Mouseup textarea false
+            $(".submenu").mouseup(function () {
+                return false
+            });
+            $(".account").mouseup(function () {
+                return false
+            });
+
+
+            //Textarea without editing.
+            $(document).mouseup(function () {
+                $(".submenu").hide();
+                $(".account").attr('id', '');
+            });
+
+        });
+	
+    </script>
+    <%--Menu--%>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1 style="font-size: 14px; padding-top: 6px;">
+                    ORDER TRACKING AND RESOURCE PLANNING
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <%-- <asp:Label ID="Label1" runat="server" Text="Label"><i class="fa fa-male"></i></asp:Label>--%>
+                <div class="dropdown">
+                    <a class="account">
+                        <asp:Label ID="lb4" runat="server" CssClass="loginlbl" Width="110px" 
+                        ToolTip="Logout"></asp:Label> 
+                    <i class="fa fa-chevron-down fa-1x"
+                            style="margin-left: 5px; text-align: right; color: #FFFFFF;"></i></a>
+                    <div class="submenu">
+                        <ul class="root">
+                            <li><a href="#Dashboard">Dashboard</a></li>
+                            <li><a href="Page37.aspx">Profile</a></li>
+                            <li><a href="LogIn.aspx" id="logout">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear hideSkiplink">
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <asp:Label ID="Label1" runat="server" Text="System Developed by ICT Department NZ GROUP"
+            CssClass="footerlbl"></asp:Label>
+    </div>
+      
+    </form>
+</body>
+</html>
